@@ -1,10 +1,83 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>My First Website</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to right, #4facfe, #00f2fe);
+            color: white;
+            text-align: center;
+        }
+
+        header {
+            padding: 20px;
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        .container {
+            margin-top: 50px;
+        }
+
+        h1 {
+            font-size: 40px;
+        }
+
+        p {
+            font-size: 18px;
+            margin: 20px;
+        }
+
+        .btn {
+            padding: 12px 25px;
+            background: white;
+            color: #007BFF;
+            border: none;
+            border-radius: 25px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        .btn:hover {
+            background: #007BFF;
+            color: white;
+        }
+
+        footer {
+            position: fixed;
+            bottom: 10px;
+            width: 100%;
+            font-size: 14px;
+        }
+    </style>
 </head>
+
 <body>
-    <h1>Hello, Bangalore</h1>
-    <p>This is my first DevOps project 🚀</p>
+
+<header>
+    🌟 My First Website
+</header>
+
+<div class="container">
+    <h1>Hello, I am Your Name</h1>
+    <p>Welcome to my beautiful website 🚀</p>
+    <button class="btn" onclick="showMessage()">Click Me</button>
+</div>
+
+<footer>
+    © 2026 My Website
+</footer>
+
+<script>
+    function showMessage() {
+        alert("Thanks for visiting my website 😊");
+    }
+</script>
+
 </body>
 </html>
